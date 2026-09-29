@@ -1,0 +1,18 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "cleanup/remove-stale-patch-files",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "cleanup/remove-stale-patch-files": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "cleanup/remove-stale-patch-files",
+    "origin"
+  ]
+}
